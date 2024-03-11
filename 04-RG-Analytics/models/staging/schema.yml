@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: staging
+    database: golden-system-411709
+    schema: ny_taxi
+
+    tables:
+      - name: yellow_cap_data
+      - name: green_cap_data
